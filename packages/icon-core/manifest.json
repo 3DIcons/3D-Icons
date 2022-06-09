@@ -1,0 +1,490 @@
+[
+  {
+    "path": "dist/3d-coin/3d-coin.gltf",
+    "size": 203671
+  },
+  {
+    "path": "dist/3d/3d.gltf",
+    "size": 200879
+  },
+  {
+    "path": "dist/at/at.gltf",
+    "size": 659281
+  },
+  {
+    "path": "dist/axe/axe.gltf",
+    "size": 145606
+  },
+  {
+    "path": "dist/back/back.gltf",
+    "size": 87160
+  },
+  {
+    "path": "dist/backward/backward.gltf",
+    "size": 62453
+  },
+  {
+    "path": "dist/bag/bag.gltf",
+    "size": 278320
+  },
+  {
+    "path": "dist/battery/battery.gltf",
+    "size": 96158
+  },
+  {
+    "path": "dist/bell/bell.gltf",
+    "size": 298664
+  },
+  {
+    "path": "dist/blender/blender.gltf",
+    "size": 139205
+  },
+  {
+    "path": "dist/bookmark-fav/bookmark-fav.gltf",
+    "size": 218817
+  },
+  {
+    "path": "dist/bookmark/bookmark.gltf",
+    "size": 138456
+  },
+  {
+    "path": "dist/boy/boy.gltf",
+    "size": 125228
+  },
+  {
+    "path": "dist/brush/brush.gltf",
+    "size": 395556
+  },
+  {
+    "path": "dist/bucket/bucket.gltf",
+    "size": 403060
+  },
+  {
+    "path": "dist/bulb/bulb.gltf",
+    "size": 135464
+  },
+  {
+    "path": "dist/calculator/calculator.gltf",
+    "size": 500950
+  },
+  {
+    "path": "dist/calender/calender.gltf",
+    "size": 1151609
+  },
+  {
+    "path": "dist/call-end/call-end.gltf",
+    "size": 215438
+  },
+  {
+    "path": "dist/call-in/call-in.gltf",
+    "size": 110271
+  },
+  {
+    "path": "dist/call-missed/call-missed.gltf",
+    "size": 170141
+  },
+  {
+    "path": "dist/call-only/call-only.gltf",
+    "size": 53475
+  },
+  {
+    "path": "dist/call-out/call-out.gltf",
+    "size": 109190
+  },
+  {
+    "path": "dist/call-ringing/call-ringing.gltf",
+    "size": 285488
+  },
+  {
+    "path": "dist/camera/camera.gltf",
+    "size": 203188
+  },
+  {
+    "path": "dist/can/can.gltf",
+    "size": 196248
+  },
+  {
+    "path": "dist/chart/chart.gltf",
+    "size": 18263
+  },
+  {
+    "path": "dist/chat-bubble/chat-bubble.gltf",
+    "size": 104336
+  },
+  {
+    "path": "dist/chat-text/chat-text.gltf",
+    "size": 190354
+  },
+  {
+    "path": "dist/chat/chat.gltf",
+    "size": 53104
+  },
+  {
+    "path": "dist/chess/chess.gltf",
+    "size": 140558
+  },
+  {
+    "path": "dist/circle/circle.gltf",
+    "size": 49484
+  },
+  {
+    "path": "dist/clock/clock.gltf",
+    "size": 543665
+  },
+  {
+    "path": "dist/color-pallete/color-pallete.gltf",
+    "size": 118246
+  },
+  {
+    "path": "dist/computer/computer.gltf",
+    "size": 257602
+  },
+  {
+    "path": "dist/copy/copy.gltf",
+    "size": 510469
+  },
+  {
+    "path": "dist/card/card.gltf",
+    "size": 1681806
+  },
+  {
+    "path": "dist/crown/crown.gltf",
+    "size": 370966
+  },
+  {
+    "path": "dist/cube/cube.gltf",
+    "size": 23425
+  },
+  {
+    "path": "dist/cup/cup.gltf",
+    "size": 206717
+  },
+  {
+    "path": "dist/dollar/dollar.gltf",
+    "size": 154869
+  },
+  {
+    "path": "dist/eth/eth.gltf",
+    "size": 122233
+  },
+  {
+    "path": "dist/euro/euro.gltf",
+    "size": 127743
+  },
+  {
+    "path": "dist/explorer/explorer.gltf",
+    "size": 394632
+  },
+  {
+    "path": "dist/eyedropper/eyedropper.gltf",
+    "size": 189605
+  },
+  {
+    "path": "dist/figma/figma.gltf",
+    "size": 417125
+  },
+  {
+    "path": "dist/file-fav/file-fav.gltf",
+    "size": 541541
+  },
+  {
+    "path": "dist/file-new/file-new.gltf",
+    "size": 311843
+  },
+  {
+    "path": "dist/file-text/file-text.gltf",
+    "size": 258818
+  },
+  {
+    "path": "dist/file/file.gltf",
+    "size": 243775
+  },
+  {
+    "path": "dist/fire/fire.gltf",
+    "size": 1277620
+  },
+  {
+    "path": "dist/flag/flag.gltf",
+    "size": 301850
+  },
+  {
+    "path": "dist/flash/flash.gltf",
+    "size": 59291
+  },
+  {
+    "path": "dist/folder-fav/folder-fav.gltf",
+    "size": 314148
+  },
+  {
+    "path": "dist/folder-new/folder-new.gltf",
+    "size": 188202
+  },
+  {
+    "path": "dist/folder/folder.gltf",
+    "size": 261784
+  },
+  {
+    "path": "dist/forward/forward.gltf",
+    "size": 62461
+  },
+  {
+    "path": "dist/gift/gift.gltf",
+    "size": 515988
+  },
+  {
+    "path": "dist/girl/girl.gltf",
+    "size": 145206
+  },
+  {
+    "path": "dist/glass/glass.gltf",
+    "size": 270961
+  },
+  {
+    "path": "dist/gym/gym.gltf",
+    "size": 387360
+  },
+  {
+    "path": "dist/hash/hash.gltf",
+    "size": 11899
+  },
+  {
+    "path": "dist/headphone/headphone.gltf",
+    "size": 162715
+  },
+  {
+    "path": "dist/heart/heart.gltf",
+    "size": 119459
+  },
+  {
+    "path": "dist/key/key.gltf",
+    "size": 61517
+  },
+  {
+    "path": "dist/lab/lab.gltf",
+    "size": 246122
+  },
+  {
+    "path": "dist/link/link.gltf",
+    "size": 54473
+  },
+  {
+    "path": "dist/location/location.gltf",
+    "size": 45397
+  },
+  {
+    "path": "dist/lock/lock.gltf",
+    "size": 163480
+  },
+  {
+    "path": "dist/locker/locker.gltf",
+    "size": 407836
+  },
+  {
+    "path": "dist/magic/magic.gltf",
+    "size": 212549
+  },
+  {
+    "path": "dist/message/message.gltf",
+    "size": 163854
+  },
+  {
+    "path": "dist/map-pin/map-pin.gltf",
+    "size": 226432
+  },
+  {
+    "path": "dist/medal/medal.gltf",
+    "size": 179840
+  },
+  {
+    "path": "dist/megaphone/megaphone.gltf",
+    "size": 359856
+  },
+  {
+    "path": "dist/mic/mic.gltf",
+    "size": 2144304
+  },
+  {
+    "path": "dist/minecraft/minecraft.gltf",
+    "size": 164335
+  },
+  {
+    "path": "dist/mobile/mobile.gltf",
+    "size": 376712
+  },
+  {
+    "path": "dist/money-bag/money-bag.gltf",
+    "size": 284692
+  },
+  {
+    "path": "dist/money/money.gltf",
+    "size": 244671
+  },
+  {
+    "path": "dist/moon/moon.gltf",
+    "size": 129539
+  },
+  {
+    "path": "dist/music/music.gltf",
+    "size": 103103
+  },
+  {
+    "path": "dist/next/next.gltf",
+    "size": 86728
+  },
+  {
+    "path": "dist/notebook/notebook.gltf",
+    "size": 467832
+  },
+  {
+    "path": "dist/notify-heart/notify-heart.gltf",
+    "size": 212468
+  },
+  {
+    "path": "dist/paint-brush/paint-brush.gltf",
+    "size": 79745
+  },
+  {
+    "path": "dist/painting-kit/painting-kit.gltf",
+    "size": 202222
+  },
+  {
+    "path": "dist/pause/pause.gltf",
+    "size": 98905
+  },
+  {
+    "path": "dist/pencil/pencil.gltf",
+    "size": 208831
+  },
+  {
+    "path": "dist/picture/picture.gltf",
+    "size": 144997
+  },
+  {
+    "path": "dist/pin/pin.gltf",
+    "size": 112343
+  },
+  {
+    "path": "dist/play/play.gltf",
+    "size": 35697
+  },
+  {
+    "path": "dist/plus/plus.gltf",
+    "size": 79280
+  },
+  {
+    "path": "dist/pound/pound.gltf",
+    "size": 121977
+  },
+  {
+    "path": "dist/puzzle/puzzle.gltf",
+    "size": 154299
+  },
+  {
+    "path": "dist/rocket/rocket.gltf",
+    "size": 441799
+  },
+  {
+    "path": "dist/roll-brush/roll-brush.gltf",
+    "size": 167756
+  },
+  {
+    "path": "dist/rupee/rupee.gltf",
+    "size": 117231
+  },
+  {
+    "path": "dist/scissor/scissor.gltf",
+    "size": 152397
+  },
+  {
+    "path": "dist/setting/setting.gltf",
+    "size": 232066
+  },
+  {
+    "path": "dist/shield/shield.gltf",
+    "size": 119483
+  },
+  {
+    "path": "dist/sphere/sphere.gltf",
+    "size": 14329
+  },
+  {
+    "path": "dist/star/star.gltf",
+    "size": 61959
+  },
+  {
+    "path": "dist/sun/sun.gltf",
+    "size": 115192
+  },
+  {
+    "path": "dist/takeaway-cup/takeaway-cup.gltf",
+    "size": 328788
+  },
+  {
+    "path": "dist/target/target.gltf",
+    "size": 232954
+  },
+  {
+    "path": "dist/tea-cup/tea-cup.gltf",
+    "size": 235525
+  },
+  {
+    "path": "dist/text/text.gltf",
+    "size": 159735
+  },
+  {
+    "path": "dist/thumb-down/thumb-down.gltf",
+    "size": 169332
+  },
+  {
+    "path": "dist/thumb-up/thumb-up.gltf",
+    "size": 169295
+  },
+  {
+    "path": "dist/tick/tick.gltf",
+    "size": 51304
+  },
+  {
+    "path": "dist/toggle/toggle.gltf",
+    "size": 119894
+  },
+  {
+    "path": "dist/tools/tools.gltf",
+    "size": 397091
+  },
+  {
+    "path": "dist/trash-can/trash-can.gltf",
+    "size": 969788
+  },
+  {
+    "path": "dist/travel/travel.gltf",
+    "size": 396582
+  },
+  {
+    "path": "dist/trophy/trophy.gltf",
+    "size": 330692
+  },
+  {
+    "path": "dist/umbrella/umbrella.gltf",
+    "size": 1070392
+  },
+  {
+    "path": "dist/video-cam/video-cam.gltf",
+    "size": 173933
+  },
+  {
+    "path": "dist/wallet/wallet.gltf",
+    "size": 2207314
+  },
+  {
+    "path": "dist/wifi/wifi.gltf",
+    "size": 357395
+  },
+  {
+    "path": "dist/yuan/yuan.gltf",
+    "size": 106893
+  },
+  {
+    "path": "dist/zoom/zoom.gltf",
+    "size": 230265
+  }
+]

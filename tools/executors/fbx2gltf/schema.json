@@ -32,11 +32,13 @@
         "missing",
         "always"
       ],
-      "description": "When to compute vertex normals from mesh geometry."
+      "description": "When to compute vertex normals from mesh geometry.",
+      "default": "missing"
     },
     "draco": {
       "type": "boolean",
-      "description": "Apply Draco mesh compression to geometries."
+      "description": "Apply Draco mesh compression to geometries.",
+      "default": true
     },
     "dracoBitsForColors": {
       "type": "number",

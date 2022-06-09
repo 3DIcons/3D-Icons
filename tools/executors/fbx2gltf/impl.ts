@@ -1,6 +1,6 @@
 // Core Node
 import {resolve, relative, join} from 'node:path';
-import {rename, rm, mkdir} from 'node:fs/promises'
+import {rename, rm, mkdir, stat} from 'node:fs/promises'
 
 // NPM
 import runCommand from '@nrwl/workspace/src/executors/run-commands/run-commands.impl';
@@ -13,6 +13,8 @@ import type {Executor, ExecutorContext} from '@nrwl/devkit';
 
 // Local
 import type {Fbx2GltfOptions} from './schema.interface';
+import changeNpmScriptExecutor from '@nrwl/workspace/src/migrations/update-14-0-0/change-npm-script-executor';
+import {writeToFile} from '@nrwl/workspace/src/utils/fileutils';
 
 
 const $glob = promisify(glob)
@@ -91,6 +93,31 @@ const convertFile = async (
 
 }
 
+interface ManifestEntry {
+  path: string;
+  size: number;
+}
+
+const generateManifest = async (
+  files: Array<string>,
+  projectRootPath: string,
+) => {
+
+  const toFile = join(projectRootPath, 'manifest.json');
+
+  const manifest: Array<ManifestEntry> = await Promise.all(files
+    .map(async (file) => {
+      const {size} = await stat(file);
+      return {
+        path: relative(projectRootPath, file),
+        size: size,
+      }
+    }));
+
+  await writeToFile(toFile, JSON.stringify(manifest, null, 2));
+
+}
+
 
 const Fbx2GltfExecutor: Executor<Fbx2GltfOptions> = async (options, context) => {
 
@@ -128,12 +155,14 @@ const Fbx2GltfExecutor: Executor<Fbx2GltfOptions> = async (options, context) => 
 
   const successes = results
     .filter(([success]) => success)
-    .map(([, file]) => file);
+    .map(([, file]) => file) as Array<string>;
+
 
   const errors = results
     .filter(([success]) => !success)
-    .map(([, file]) => file);
+    .map(([, file]) => file) as Array<string>;
 
+  await generateManifest(successes, projectRootPath);
 
   if (errors.length) {
 
