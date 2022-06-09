@@ -1,0 +1,9 @@
+{
+  "executors": {
+    "fbx2gltf": {
+      "implementation": "./impl",
+      "schema": "./schema.json",
+      "description": "Converts FBX files to glTF files"
+    }
+  }
+}

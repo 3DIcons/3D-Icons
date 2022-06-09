@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "type": "object",
+  "cli": "nx",
+  "properties": {
+    "animFramerate": {
+      "type": "string",
+      "enum": [
+        "bake24",
+        "bake30",
+        "bake60"
+      ],
+      "description": "Select baked animation framerate."
+    },
+    "binary": {
+      "type": "boolean",
+      "description": "Output a single binary format .glb file."
+    },
+    "blendShapeNormals": {
+      "type": "boolean",
+      "description": "Include blend shape normals, if reported present by the FBX SDK."
+    },
+    "blendShapeTangents": {
+      "type": "boolean",
+      "description": "Include blend shape tangents, if reported present by the FBX SDK."
+    },
+    "computeNormals": {
+      "type": "string",
+      "enum": [
+        "never",
+        "broken",
+        "missing",
+        "always"
+      ],
+      "description": "When to compute vertex normals from mesh geometry."
+    },
+    "draco": {
+      "type": "boolean",
+      "description": "Apply Draco mesh compression to geometries."
+    },
+    "dracoBitsForColors": {
+      "type": "number",
+      "description": "How many bits to quantize colors to.",
+      "multipleOf": 1,
+      "minimum": 1,
+      "maximum": 32
+    },
+    "dracoBitsForNormals": {
+      "type": "number",
+      "description": "How many bits to quantize normals to.",
+      "multipleOf": 1,
+      "minimum": 1,
+      "maximum": 32
+    },
+    "dracoBitsForOther": {
+      "type": "number",
+      "description": "How many bits to quantize all other vertex attributes to.",
+      "multipleOf": 1,
+      "minimum": 1,
+      "maximum": 32
+    },
+    "dracoBitsForPosition": {
+      "type": "number",
+      "description": "How many bits to quantize position to.",
+      "multipleOf": 1,
+      "minimum": 1,
+      "maximum": 32
+    },
+    "dracoBitsForUv": {
+      "type": "number",
+      "description": "How many bits to quantize UV coordinates to.",
+      "multipleOf": 1,
+      "minimum": 1,
+      "maximum": 32
+    },
+    "dracoCompressionLevel": {
+      "type": "number",
+      "description": "The compression level to tune Draco to.",
+      "multipleOf": 1,
+      "minimum": 0,
+      "maximum": 10
+    },
+    "embed": {
+      "type": "boolean",
+      "description": "Inline buffers as data:// URIs within generated non-binary glTF."
+    },
+    "flipU": {
+      "type": "boolean",
+      "description": "Flip all U texture coordinates."
+    },
+    "flipV": {
+      "type": "boolean",
+      "description": "Flip all V texture coordinates."
+    },
+    "inPath": {
+      "type": "string",
+      "format": "path",
+      "description": "Source path to load FBX",
+      "default": "src"
+    },
+    "keepAttribute": {
+      "type": "string",
+      "enum": [
+        "position",
+        "normal",
+        "tangent",
+        "binormial",
+        "color",
+        "uv0",
+        "uv1",
+        "auto"
+      ],
+      "description": "Used repeatedly to build a limiting set of vertex attributes to keep."
+    },
+    "khrMaterialsUnlit": {
+      "type": "boolean",
+      "description": "Use KHR_materials_unlit extension to request an unlit shader."
+    },
+    "longIndices": {
+      "type": "string",
+      "enum": [
+        "never",
+        "auto",
+        "always"
+      ],
+      "description": "Whether to use 32-bit indices."
+    },
+    "noFlipU": {
+      "type": "boolean",
+      "description": "Don't flip U texture coordinates"
+    },
+    "noFlipV": {
+      "type": "boolean",
+      "description": "Don't flip V texture coordinates"
+    },
+    "noKhrLightsPunctual": {
+      "type": "boolean",
+      "description": "Don't use KHR_lights_punctual extension to export FBX lights."
+    },
+    "pbrMetallicRoughness": {
+      "type": "boolean",
+      "description": "Try to glean glTF 2.0 native PBR attributes from the FBX"
+    },
+    "tmpPath": {
+      "type": "string",
+      "format": "path",
+      "description": "Temporary directory to be used by FBX SDK."
+    },
+    "userProperties": {
+      "type": "boolean",
+      "description": "Transcribe FBX User Properties into glTF node and material 'extras'."
+    },
+    "verbose": {
+      "type": "boolean",
+      "description": "Include blend shape tangents, if reported present by the FBX SDK."
+    }
+  }
+}
